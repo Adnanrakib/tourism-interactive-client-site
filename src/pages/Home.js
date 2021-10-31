@@ -32,7 +32,7 @@ const Home = () => {
                                     <h6>{childs.desc}</h6>
                                     <h4>{childs.price}</h4>
                                    
-                                    <Link to="/services">
+                                    <Link to="/login">
                                         <button className="btn btn-dark">Booking Now</button>
                                     </Link>
                                 </div>

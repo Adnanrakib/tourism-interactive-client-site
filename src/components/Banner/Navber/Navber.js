@@ -35,7 +35,7 @@ const Navber = () => {
                                 to="/booking"
                                 // to="/login"
                             >
-                             Booking-Place
+                             Booking
                             </NavLink>
                         </li>
                         <li class="nav-item">

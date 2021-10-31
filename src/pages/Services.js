@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     const [service, setService] = useState([])
     useEffect(() => {
-        fetch('/servicedata.json')
+        fetch('http://localhost:5000/booking')
             .then(res => res.json())
             .then(data => setService(data))
 
@@ -23,10 +23,12 @@ const Services = () => {
                                 </div>
                                 <div className="text-area">
                                     <h3>{childsSingle.name}</h3>
-                                    <h4>{childsSingle.price}</h4>
+                                    {/* <h4>{childsSingle.price}</h4> */}
                                     <h6> {childsSingle.desc}</h6>
-                                    <Link to="/login">
-                                        <button className="btn btn-secondary">Booking Now</button>
+                                    <Link to={"/cart"}>
+                                        <button className="btn btn-secondary">ORDER NOW
+                                    
+                                        </button>
                                     </Link>
 
                                 </div>

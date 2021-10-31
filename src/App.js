@@ -13,6 +13,8 @@ import Signup from './pages/Signup';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import Footer from './components/Banner/Footer/Footer';
 import Booking from './pages/Booking/Booking';
+import Cart from './pages/Cart';
+import ManageService from './pages/ManageService';
 // import Banner from './components/Banner/Banner';
 
 function App() {
@@ -36,12 +38,16 @@ function App() {
               <Contact></Contact>
             </Route>
 
-            {/* <PrivateRoute>
-              <Services></Services>
-            </PrivateRoute> */}
-
             <Route path="/services">
               <Services></Services>
+            </Route>
+
+            <PrivateRoute path="/cart">
+              <Cart></Cart>
+            </PrivateRoute>
+
+            <Route path="/manageservice">
+              <ManageService></ManageService>
             </Route>
 
             <Route path="/login">
@@ -52,9 +58,9 @@ function App() {
               <Signup></Signup>
             </Route>
 
-            <Route path="/booking">
+            <PrivateRoute path="/booking">
               <Booking></Booking>
-            </Route>
+            </PrivateRoute>
 
             <Route path="*">
               <Notfound></Notfound>
