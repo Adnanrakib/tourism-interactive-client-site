@@ -1,6 +1,6 @@
 World Tourism Services website
 
-This Project About Dental Services:
+This Project About Tourism Services:
 
 Available Scripts
 -The Travelling Services
