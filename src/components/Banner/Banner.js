@@ -7,7 +7,7 @@ const Banner = () => {
           return (
                     <div className="row">
                               <div className="col-lg-12 col-sm-12">
-                              <img img-fluid src={bgImg} alt="" />
+                              <img className="img-fluid" src={bgImg} alt="" />
                            
                               
                               

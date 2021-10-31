@@ -30,11 +30,13 @@ const Navber = () => {
                             </NavLink>
                         </li>
                         <li class="nav-item">
-                            {/* <NavLink className="link nav-link"
-                                to="/add-service"
+                            <NavLink className="link nav-link"
+
+                                to="/booking"
+                                // to="/login"
                             >
-                                Add Service
-                            </NavLink> */}
+                             Booking-Place
+                            </NavLink>
                         </li>
                         <li class="nav-item">
                             <NavLink className="link nav-link"

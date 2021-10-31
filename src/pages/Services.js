@@ -22,9 +22,9 @@ const Services = () => {
                                     <img className="w-100" src={childsSingle.img} alt="" />
                                 </div>
                                 <div className="text-area">
-                                    <h4>{childsSingle.title}</h4>
-                                    <p> {childsSingle.desc}</p>
-                                    <h3>{childsSingle.price}</h3>
+                                    <h3>{childsSingle.name}</h3>
+                                    <h4>{childsSingle.price}</h4>
+                                    <h6> {childsSingle.desc}</h6>
                                     <Link to="/login">
                                         <button className="btn btn-secondary">Booking Now</button>
                                     </Link>

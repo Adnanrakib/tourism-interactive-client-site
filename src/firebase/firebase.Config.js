@@ -1,11 +1,10 @@
 const firebaseConfig = {
-          apiKey: "AIzaSyC_LezfZLTfbFVjunIKcgcadMoHtZIuCug",
-          authDomain: "the-tourism-auth-site.firebaseapp.com",
-          projectId: "the-tourism-auth-site",
-          storageBucket: "the-tourism-auth-site.appspot.com",
-          messagingSenderId: "368355831649",
-          appId: "1:368355831649:web:95b52f07553b28318ddf20"
-        };
+  apiKey: "AIzaSyDB3uanSoJjkiLzZcRhrlp8Bp_i7l0qz7o",
+  authDomain: "tourism-site-b35f0.firebaseapp.com",
+  projectId: "tourism-site-b35f0",
+  storageBucket: "tourism-site-b35f0.appspot.com",
+  messagingSenderId: "210977472744",
+  appId: "1:210977472744:web:49dcd90b42c7d07143095d"
+};
 
-        export default firebaseConfig;
-        
+export default firebaseConfig;

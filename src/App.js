@@ -11,6 +11,8 @@ import Login from './pages/Login';
 import AuthProvider from './contexts/AuthProvider';
 import Signup from './pages/Signup';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+import Footer from './components/Banner/Footer/Footer';
+import Booking from './pages/Booking/Booking';
 // import Banner from './components/Banner/Banner';
 
 function App() {
@@ -46,8 +48,12 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route path="/signup">
+            <Route path="/signin">
               <Signup></Signup>
+            </Route>
+
+            <Route path="/booking">
+              <Booking></Booking>
             </Route>
 
             <Route path="*">
@@ -55,6 +61,7 @@ function App() {
             </Route>
 
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>
