@@ -1,37 +1,37 @@
 import React, { useState, useEffect } from 'react';
 
 const ManageService = () => {
-          const [services, setSevices] = useState()
-          useEffect( () =>{
-                    fetch('http://localhost:3000/services')
-                    .then(res =>res.json())
-                    .then(data => setSevices(data))
+          const [bookings, setBookings] = useState([]);
+          useEffect(() => {
+                    fetch('https://haunted-scarecrow-80788.herokuapp.com/bookings')
+                              .then(res => res.json())
+                              .then(data => setBookings(data))
           }, []);
-          const handleDelete = id =>{
-                    const url = `http://localhost:3000/services${id}`;
-                    fetch (url, {
-                              method: 'Delete'
+          const handleDelete = id => {
+                    const url = `https://haunted-scarecrow-80788.herokuapp.com/bookings/${id}`;
+                    fetch(url, {
+                              method: 'DELETE'
                     })
-                    .then(res => res.json ())
-                    .then(data =>{
-                              console.log(data);
-                              if(data.deletedCount){
-                                        alert('are you sure delete?')
-                                        const remaining = services.filter(service => services._id !==id);
-                                        setSevices(remaining);
-                              }
-                    })
+                              .then(res => res.json())
+                              .then(data => {
+                                        console.log(data);
+                                        if (data.deletedCount) {
+                                                  alert('are you sure delete?')
+                                                  const remaining = bookings.filter(cart => cart._id !== id);
+                                                  setBookings(remaining);
+                                        }
+                              })
           }
 
           return (
                     <div>
-                              <h1>Manage Service</h1>
+                              <h1>Manage All Orders</h1>
                               {
-                                        services.map(service => <div key={service._id}
+                                        bookings?.map(cart => <div key={cart._id}
                                         >
-                                                  <h3>{service.name}</h3>
-                                                  <button onClick={() => handleDelete(service.id)} >Delete</button>
-                                        </div> )
+                                                  <h3>{cart.name}</h3>
+                                                  <button onClick={() => handleDelete(cart._id)}>Delete</button>
+                                        </div>)
                               }
                     </div>
           );

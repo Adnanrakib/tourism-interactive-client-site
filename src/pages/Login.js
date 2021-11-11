@@ -14,7 +14,7 @@ const Login = () => {
     <div className="login">
 
       <h1 className="booking">BOOKING SERVICE</h1>
-       <Link to="/cart"><button onClick={signInWithGoogle} className="btn btn-danger">Google SignIn</button></Link>
+       <Link to="/home"><button onClick={signInWithGoogle} className="btn btn-danger">Google SignIn</button></Link>
     </div>
     </div>
   );

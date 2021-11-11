@@ -3,7 +3,7 @@
               "key": 1,
               "img": "https://images.unsplash.com/photo-1476802379768-84b0af3e39ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
               "name": "ITALY VANICE",
-              "price": "Cost $400",
+              "price": "Payment $400",
               "desc": "Italian vanice Special Tourism Place. Let's Booking Now."
             },
 
@@ -12,7 +12,7 @@
             
               "img":"https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
               "name": "POLAND GDANSK",
-              "price": "Cost $500",
+              "price": "Payment $500",
               "desc": "Poland gdansk Special Tourism Place. Let's Booking Now."
             },
 
@@ -20,7 +20,7 @@
               "key": 3,
               "img": "https://images.unsplash.com/photo-1545157000-85f257f7b040?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
               "name": "SPAIN BERCELONA",
-              "price": "Cost $650",
+              "price": "Payment $650",
               "desc": "Spain Bercelona Special Tourism Place. Let's Booking Now."
             }
               ,
@@ -28,14 +28,14 @@
               "key": 4,
               "img": "https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
               "name": "MULDIV BEACH",
-              "price": "Cost $700",
+              "price": "Payment $700",
               "desc": "Muldiv Beach Special Tourism Place. Let's Booking Now."
             },
             {
               "key": 5,
               "img": "https://images.unsplash.com/photo-1537639622086-73570d45a9ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
               "name": "HOME GROUND",
-              "price": "Cost $800",
+              "price": "Payment $800",
               "desc": "Muldiv Home-Ground Special Tourism Place. Let's Booking Now."
               
             },
@@ -43,7 +43,7 @@
               "key": 6,
               "img": "https://images.unsplash.com/photo-1582574643306-d00ea3f7d49b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
               "name": "MALDIV VACASION",
-              "price": "Cost $700",
+              "price": "Payment $700",
               "desc": "Muldiv Vacasion Special Tourism Place. Let's Booking Now."
               
             }

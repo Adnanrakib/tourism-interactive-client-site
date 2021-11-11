@@ -15,6 +15,7 @@ import Footer from './components/Banner/Footer/Footer';
 import Booking from './pages/Booking/Booking';
 import Cart from './pages/Cart';
 import ManageService from './pages/ManageService';
+import Myorders from './pages/PrivateRoute/Myorders';
 // import Banner from './components/Banner/Banner';
 
 function App() {
@@ -42,8 +43,12 @@ function App() {
               <Services></Services>
             </Route>
 
-            <PrivateRoute path="/cart">
+            <PrivateRoute path="/cart/:serviceId">
               <Cart></Cart>
+            </PrivateRoute>
+            
+            <PrivateRoute exact path="/myorders">
+              <Myorders></Myorders>
             </PrivateRoute>
 
             <Route path="/manageservice">
@@ -58,9 +63,9 @@ function App() {
               <Signup></Signup>
             </Route>
 
-            <PrivateRoute path="/booking">
+            <Route path="/booking">
               <Booking></Booking>
-            </PrivateRoute>
+            </Route>
 
             <Route path="*">
               <Notfound></Notfound>

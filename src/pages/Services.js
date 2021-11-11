@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     const [service, setService] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/booking')
+        fetch('https://haunted-scarecrow-80788.herokuapp.com/bookings')
             .then(res => res.json())
             .then(data => setService(data))
 
@@ -15,7 +15,7 @@ const Services = () => {
             <div className="home">
                 <div className="row">
                     {service?.map((childsSingle) => (
-                       
+
                         <div className="col-lg-3 col-sm-12">
                             <div >
                                 <div  >
@@ -25,9 +25,9 @@ const Services = () => {
                                     <h3>{childsSingle.name}</h3>
                                     {/* <h4>{childsSingle.price}</h4> */}
                                     <h6> {childsSingle.desc}</h6>
-                                    <Link to={"/cart"}>
-                                        <button className="btn btn-secondary">ORDER NOW
-                                    
+                                    <Link to="/home">
+                                        <button className="btn btn-secondary">Booking Now
+
                                         </button>
                                     </Link>
 
